@@ -1,7 +1,7 @@
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import TedLogo from '../../images/1.png';
+//import TedLogo from '../../images/1.png';
 import NavBar from '../Navbar/index'
 import style from './style.module.css';
 const Header = ({ siteTitle }) => (

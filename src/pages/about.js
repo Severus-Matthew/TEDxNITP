@@ -2,8 +2,8 @@ import React from "react"
 import style from './sass/about.module.scss'
 import Layout from '../components/layout'
 import Container from '../components/Container'
-import { StaticQuery, graphql } from "gatsby";
-import Img from 'gatsby-image';
+//import { StaticQuery, graphql } from "gatsby";
+//import Img from 'gatsby-image';
 
 
 

@@ -1,11 +1,11 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React, { Component } from "react"
+//import PropTypes from "prop-types"
+import React from "react"
 //import tedx from '../../images/TedX.png'
 import style from './style.module.scss'
 import tedlogo from '../../images/1.png'
-import styled from "@emotion/styled"
-import { css } from "@emotion/core"
+//import styled from "@emotion/styled"
+//import { css } from "@emotion/core"
 
 
 
@@ -14,7 +14,7 @@ const Navbar =()=>
 (
     <div className={style.sticky}>
     <div className={style.container}>
-        <img src={tedlogo} className={style.tedlogo}/>
+        <img src={tedlogo} className={style.tedlogo} alt='tedxlogo'/>
         <div className={style.pages}>
        
             <Link className={style.links} activeClassName={style.activelinks}  to="/">Home </Link>

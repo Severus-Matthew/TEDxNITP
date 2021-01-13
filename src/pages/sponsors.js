@@ -3,7 +3,7 @@ import style from './sass/sponsor.module.scss'
 import Layout from '../components/layout'
 import Container from '../components/Container'
 import { StaticQuery, graphql } from "gatsby";
-import Img from 'gatsby-image';
+//import Img from 'gatsby-image';
 
 
 

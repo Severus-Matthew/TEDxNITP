@@ -1,5 +1,5 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
+//import PropTypes from "prop-types"
 import React from "react"
 import style from './style.module.scss'
 import Container from '../Container/index'

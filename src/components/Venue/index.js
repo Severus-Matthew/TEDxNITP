@@ -1,10 +1,10 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
+//import { Link } from "gatsby"
+//import PropTypes from "prop-types"
 import React from "react"
 import style from './style.module.scss'
 import Container from '../Container/index'
-import { StaticQuery, graphql } from "gatsby";
-import Img from 'gatsby-image';
+//import { StaticQuery, graphql } from "gatsby";
+//import Img from 'gatsby-image';
 
 
 const Venue =()=>
