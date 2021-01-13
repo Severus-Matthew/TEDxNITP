@@ -30,7 +30,7 @@
 
             .insta {
                 font-family: 'helvetica';
-                color: white;
+                color: grey;
                 text-decoration: none;
                 margin: 0px;
                 text-align: center;
@@ -50,60 +50,77 @@
                 }
             }
 
+            .insta:hover {
+                color: white;
+            }
+
+
             .insta2 {
+                font-family: 'helvetica';
+                color: grey;
+                text-decoration: none;
+                margin: 0px;
+                text-align: center;
+
+                @media #{$media-mobile} {
+                    margin-top: 10px;
+                }
+
+                @media #{$media-small} {
+                    margin-top: 10px;
+                }
+
+                .red {
+                    text-align: center;
+                    color: rgb(230,43,30);
+                    font-weight: 700;
+                }
+            }
+
+            .insta2:hover {
+                color: white;
+            }
+
+            .news {
+                color: grey;
+                font-size: 30px;
+                font-family: Rockwell;
+                border-color: grey;
+                border-width: 10px;
+                padding: 10px;
+                border: 2px solid grey;
+            }
+
+            .news:hover {
+                color: white;
+                background: red;
+                font-size: 30px;
+                font-family: Rockwell;
+                border-color: grey;
+                border-width: 10px;
+                border: 2px solid white;
+            }
+        }
+
+        .license {
+            font-family: 'helvetica';
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .credits {
+            display: flex;
+            justify-content: center;
+
+            .insta {
+                font-size: 45px;
+                margin-left: 15px;
                 font-family: 'helvetica';
                 color: white;
                 text-decoration: none;
                 margin: 0px;
-                text-align: center;
-
-                @media #{$media-mobile} {
-                    margin-top: 10px;
-                }
-
-                @media #{$media-small} {
-                    margin-top: 10px;
-                }
-
-                .red {
-                    text-align: center;
-                    color: rgb(230,43,30);
-                    font-weight: 700;
-                }
             }
-
-            .news {
-
-               color: grey;
-               font-size:30px;
-               font-family:Rockwell;
-               border-color:grey;
-               border-width:10px;
-
-
-
-           }
-       }
-       .license
-       {
-        font-family: 'helvetica';
-        color: white;
-        text-align: center;
-        margin-top:30px; 
-       }
-       .credits
-       {
-           display: flex;
-           justify-content: center;
-        .insta
-        {
-            font-size: 45px;
-            margin-left: 15px;
-            font-family: 'helvetica';
-            color: white;
-            text-decoration: none;
-            margin: 0px;
         }
-       }
     }
 }
