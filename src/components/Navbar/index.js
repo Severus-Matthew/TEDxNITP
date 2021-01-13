@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import React from "react"
 //import tedx from '../../images/TedX.png'
 import style from './style.module.scss'
-import tedlogo from '../../images/1.png'
+import tedlogo from '../../images/lgw.png'
 //import styled from "@emotion/styled"
 //import { css } from "@emotion/core"
 
