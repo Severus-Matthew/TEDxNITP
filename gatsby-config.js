@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `TEDxSCEM`,
-    description: `The Official website for TEDxSCEM`,
+    description: `The Official website for TEDxNITP`,
     author: `@haxzie`,
   },
   plugins: [
