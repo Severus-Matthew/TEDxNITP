@@ -13,8 +13,8 @@ const LandingPage =()=>
 <Container>
     <div className={style.herocontent}>
         <p className={style.herotitle}><span className={style.red}>TEDx</span> NITP</p>
-        <p className={style.heroslogan}>"How unpredictable are you"</p>
-        <p className={style.slogans}>"<span className={style.spin}></span><span className={style.red}>able"</span> </p>
+                    <p className={style.heroslogan} style={{fontStyle:'italic'}}>"Tending To <span className={style.red}> Infinity</span>"</p>
+        <p className={style.slogans}>"<span className={style.spin}></span><span className={style.red}>nity"</span> </p>
     </div>
 </Container>
 </div>

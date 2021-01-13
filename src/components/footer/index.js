@@ -21,7 +21,8 @@ const Footer =()=>
                         <p className={style.insta}><IconContext.Provider value={{ size: '37px'}}><FaPhoneAlt /></IconContext.Provider> <span className={style.red}> <br /> </span>  </p>
                         <p className={style.news}> SignUp For Newsletter</p>
                 </div>
-                <p className={style.license}>"This Independent TEDx event is operated under license from TED." </p>
+                    <p className={style.license}>"This Independent TEDx event is operated under license from TED."  </p>
+                    
                 <div className={style.credits}>
                
                 
