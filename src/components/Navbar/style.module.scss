@@ -15,7 +15,7 @@
 .container
 {
     
-    background-color: white;
+    background-color: black;
     padding:7px;
     display: flex;
     justify-content: space-between;
@@ -47,14 +47,12 @@
 
     .pages
 {
-    font-family: Rockwell;
+    font-family: 'helvetica';
     color:rgb(255, 255, 255);
     text-decoration: none;
     text-decoration-color: none;
     margin-top: 15px;
-    font-weight:600;
-    font-size:larger;
-    width: 50%;
+    width: 60%;
     display:flex;
     justify-content: space-evenly;
     @media  #{$media-mobile} {
@@ -67,17 +65,17 @@
 
 .links
 {
-    color: black;
+    color: white;
     text-decoration: none;
    
 }
 .activelinks
 {
     z-index: 1;    
-        color: black;
-    text-decoration: underline solid rgb(230,43,30) 2px;
+        color: white;
+    text-decoration: underline solid rgb(230,43,30) 2PX;
     margin-bottom: 0px;
-    
+    border-bottom: solid rgb(230,43,30) 2px;
     
 }
 
