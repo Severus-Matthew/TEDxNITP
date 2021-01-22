@@ -15,7 +15,7 @@ const aboutPage = () =>
 
                     <div className={style.container}>
 
-                        <p className={style.title}><br /> About <span className={style.red}>TEDx</span>,<br /> x = independently organized event </p>
+                        <p className={style.title} style={{ marginTop: '110px' }}><br /> About <span className={style.red}>TEDx</span>,<br /><span style={{fontSize:'22px'}}> x = independently organized event</span> </p>
                         <p className={style.content}>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share
                         a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection.
                         These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program,
@@ -23,7 +23,7 @@ const aboutPage = () =>
 
 
                         <p className={style.title}> About <span className={style.red}>TED</span> </p>
-                        <p className={style.content}>
+                        <p className={style.content} style={{marginBottom:'40px'}}>
                             TED started as a four-day conference in California 30 years
                             
                             ago, TED has grown to support its mission with multiple

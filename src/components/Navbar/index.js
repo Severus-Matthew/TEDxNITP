@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import React from "react"
 //import tedx from '../../images/TedX.png'
 import style from './style.module.scss'
-import tedlogo from '../../images/lgw.png'
+import tedlogo from '../../images/lgb.png'
 //import styled from "@emotion/styled"
 //import { css } from "@emotion/core"
 
@@ -28,7 +28,8 @@ const Navbar =()=>
     </div>
     </div>
     
-)
+    )
+
 
 
 export default Navbar;

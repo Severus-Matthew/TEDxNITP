@@ -6,45 +6,40 @@
 
 
 
-.container
-{
-    
-    background-color:white;
-    
+.container {
+    background-color: white;
 
-    .content_title
-    {
+
+    .content_title {
         font-family: 'helvetica';
-        font-size:40px;
-        
+        font-size: 40px;
         font-weight: 600;
 
-        .red
-        {
-            color:rgb(230,43,30);
+        .red {
+            color: rgb(230,43,30);
             font-weight: 700;
         }
     }
 
-  
-    .content_wrap
-    {
+
+    .content_wrap {
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
 
-        @media  #{$media-tablet-p} {
+        @media #{$media-tablet-p} {
             flex-direction: column;
         }
-        @media  #{$media-mobile} {
+
+        @media #{$media-mobile} {
             flex-direction: column;
         }
-        @media  #{$media-small} {
+
+        @media #{$media-small} {
             flex-direction: column;
         }
-        
-        .content
-        {
+
+        .content {
             order: 2;
             color: black;
             font-family: 'helvetica';
@@ -52,56 +47,66 @@
             width: 50%;
             font-size: 16px;
             padding: 25px;
-            @media  #{$media-tablet-p} {
-                width: 80%;
-            }
-            @media  #{$media-mobile} {
-                width: 80%;
-            }
-            @media  #{$media-small} {
-                width: 80%;
-            }
-
-            .content_data
-            {
-                margin-bottom: 25px;
-            }
-
-    .HeroButton
-    {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        margin-top: 100px;
-        font-family: 'helvetica';
-        padding: 10px;
-        background-color: rgb(230,43,30);
-    }
-            
-        }
-        .About_image
-        {
             margin-top: 50px;
             max-width: 500px;
             max-height: 300px;
 
-            @media  #{$media-tablet-p} {
+            @media #{$media-tablet-p} {
+                width: 80%;
+            }
+
+            @media #{$media-mobile} {
+                width: 80%;
+            }
+
+            @media #{$media-small} {
+                width: 80%;
+            }
+
+            .content_data {
+                margin-bottom: 25px;
+            }
+
+            .HeroButton {
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+                margin-top: 100px;
+                font-family: 'helvetica';
+                padding: 10px;
+                background-color: rgb(230,43,30);
+            }
+        }
+
+        .About_image {
+            margin-top: 50px;
+            max-width: 500px;
+            max-height: 300px;
+            color: black;
+            font-family: 'helvetica';
+            line-height: 20px;
+            width: 50%;
+            font-size: 16px;
+            padding: 25px;
+
+            @media #{$media-tablet-p} {
                 order: 2;
                 align-self: center;
             }
-            @media  #{$media-mobile} {
+
+            @media #{$media-mobile} {
                 order: 2;
                 align-self: center;
-                width:320px;
+                width: 320px;
                 height: 200px;
             }
-            @media  #{$media-small} {
+
+            @media #{$media-small} {
                 order: 2;
                 align-self: center;
-                width:320px;
+                width: 320px;
                 height: 200px;
             }
         }
     }
-
 }

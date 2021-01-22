@@ -3,12 +3,26 @@ import PropTypes from "prop-types"
 import React from "react"
 //import TedLogo from '../../images/1.png';
 import NavBar from '../Navbar/index'
-import style from './style.module.css';
+
+
+
+
 const Header = ({ siteTitle }) => (
-  <div className={style.sticky}>
-  <NavBar />
+  <div id="sticky">
+        <NavBar />
+       
+        
   </div>
 )
+    window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("sticky").style.fontSize = "15px";
+    } else {
+        document.getElementById("sticky").style.fontSize = "25px";
+    }
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
@@ -17,5 +31,7 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 }
+
+ 
 
 export default Header

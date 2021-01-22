@@ -8,29 +8,29 @@
 
 
 .section {
-    background-color: white;
-    padding-top: 80px;
+    background-color: black;
+   
 
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: black;
-        margin-bottom: 10px;
+        
 
         @media #{$media-desktop} {
             margin-bottom: 0px;
-            height: 100vh;
+            
         }
 
         @media #{$media-large} {
             margin-top: 0px;
-            height: 100vh;
+            
         }
 
         @media #{$media-tablet-p} {
             margin-top: 0px;
-            height: 100vh;
+           
         }
 
 
@@ -59,12 +59,11 @@
         .content {
             text-align: center;
             color: white;
-            font-size: 15px;
+            font-size: 18px;
             font-family: Bahnschrift;
             font-style: italic;
             font-weight: 400;
-            padding-left:10px;
-            padding-right:10px;
+            
 
             .links {
                 text-decoration: none;
