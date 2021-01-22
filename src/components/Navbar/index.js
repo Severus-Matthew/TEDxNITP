@@ -27,14 +27,14 @@ const Navbar =()=>
 
     </div>
     </div>
-<<<<<<< HEAD
+
     
     )
 
-=======
 
-)
->>>>>>> 78302f50706501b894d566aa370799443623f720
+
+
+
 
 
 export default Navbar;
