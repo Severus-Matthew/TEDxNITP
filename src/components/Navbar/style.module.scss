@@ -12,9 +12,17 @@
     width: 100%;
     z-index: 99;
 }
+<<<<<<< HEAD
 .container {
     background-color: black;
     padding: 7px;
+=======
+.container
+{
+    
+    background-color: black;
+    padding:7px;
+>>>>>>> 78302f50706501b894d566aa370799443623f720
     display: flex;
     justify-content: space-between;
 
@@ -29,6 +37,7 @@
     .tedlogo {
         width: 150px;
 
+<<<<<<< HEAD
 
         @media #{$media-tablet-p} {
             width: 180px;
@@ -43,8 +52,26 @@
             width: 150px;
             height: 40px;
         }
+=======
+    .pages
+{
+    font-family: 'helvetica';
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration-color: none;
+    margin-top: 15px;
+    width: 60%;
+    display:flex;
+    justify-content: space-evenly;
+    @media  #{$media-mobile} {
+       width: 100%;
+    }
+    @media  #{$media-small} {
+        width: 100%;
+>>>>>>> 78302f50706501b894d566aa370799443623f720
     }
 
+<<<<<<< HEAD
     .pages {
         font-family: helvetica;
         color: white;
@@ -56,6 +83,23 @@
         width: 50%;
         display: flex;
         justify-content: space-evenly;
+=======
+.links
+{
+    color: white;
+    text-decoration: none;
+   
+}
+.activelinks
+{
+    z-index: 1;    
+        color: white;
+    text-decoration: underline solid rgb(230,43,30) 2PX;
+    margin-bottom: 0px;
+    border-bottom: solid rgb(230,43,30) 2px;
+    
+}
+>>>>>>> 78302f50706501b894d566aa370799443623f720
 
         @media #{$media-mobile} {
             width: 100%;
