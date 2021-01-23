@@ -15,10 +15,14 @@ import EX3 from "../images/team/ex3.jpg"
 import EX4 from "../images/team/ex4.jpg"
 import EX5 from "../images/team/ex5.jpg"
 import EX6 from "../images/team/ex6.jpg"
+import EX7 from "../images/team/ex7.jpg"
+import EX8 from "../images/team/ex8.jpg"
 import D1 from "../images/team/d1.jpg"
 import D2 from "../images/team/d2.jpg"
 import D3 from "../images/team/d3.jpg"
 import D4 from "../images/team/d4.jpg"
+import W1 from "../images/team/W1.jpg"
+import W2 from "../images/team/W2.jpg"
 
 
 
@@ -147,6 +151,38 @@ const TeamPage = () =>
                                 </div>
                             </div>
                         </div>
+
+                        <div className={style.row}>
+                            <div className={style.column}>
+                                <div className={style.flipcard}>
+                                    <div className={style.flipcardinner}>
+                                        <div className={style.flipcardfront}>
+                                            <img src={EX7} alt='teamImages' />
+                                        </div>
+                                        <div className={style.flipcardback}>
+                                            <h1>Rishu Pal</h1>
+                                            <p>Curator Lead & Budget Executive</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={style.column}>
+                                <div className={style.flipcard}>
+                                    <div className={style.flipcardinner}>
+                                        <div className={style.flipcardfront}>
+                                            <img src={EX8} alt='teamImages' />
+                                        </div>
+                                        <div className={style.flipcardback}>
+                                            <h1>Tanishq Singh</h1>
+                                            <p>Curator Lead</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
 
 
 
@@ -309,6 +345,43 @@ const TeamPage = () =>
                                         <div className={style.flipcardback}>
                                             <h1>Priyanka Kumari</h1>
                                             <p>Design Lead</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <br />
+                        <p className={style.title} style={{ fontSize: '30px', textDecoration: 'underline', textDecorationColor: 'red' }}>Website Team</p>
+                        <br />
+                        <div className={style.row}>
+                            <div className={style.column}>
+                                <div className={style.flipcard}>
+                                    <div className={style.flipcardinner}>
+                                        <div className={style.flipcardfront}>
+                                            <img src={W1} alt='teamImages' />
+                                        </div>
+                                        <div className={style.flipcardback}>
+                                            <h1>Manvi Jha</h1>
+                                            <p>Website Manager</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className={style.column}>
+                                <div className={style.flipcard}>
+                                    <div className={style.flipcardinner}>
+                                        <div className={style.flipcardfront}>
+                                            <img src={W2} alt='teamImages' />
+                                        </div>
+                                        <div className={style.flipcardback}>
+                                            <h1>Vikhyat Singh</h1>
+                                            <p>Website Manager</p>
 
                                         </div>
                                     </div>
