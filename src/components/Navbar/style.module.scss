@@ -52,13 +52,13 @@
         text-decoration-color: none;
         margin-top: 15px;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 20px;
         width: 50%;
         display: flex;
         justify-content: space-evenly;
 
         @media screen and (max-width: 1024px) {
-            font-size: 24px;
+            font-size: 20px;
             width: 100%;
         }
 
@@ -68,17 +68,17 @@
         }
 
         @media screen and (max-width: 425px) {
-            font-size: 10px;
+            font-size: 12px;
             width: 100%;
         }
 
         @media screen and (max-width: 375px) {
-            font-size: 9px;
+            font-size: 11px;
             width: 100%;
         }
 
         @media screen and (max-width: 320px) {
-            font-size: 9px;
+            font-size: 11px;
             width: 100%;
         }
 
