@@ -7,6 +7,13 @@ import componentDidMount from 'react';
 import NavBar from '../Navbar/index'
 
 
+function myfunc() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("sticky").style.fontSize = "15px";
+    } else {
+        document.getElementById("sticky").style.fontSize = "25px";
+    }
+}
 
 const Header = ({ siteTitle }) => (
     <div onScroll="myfunc()">
@@ -17,19 +24,6 @@ const Header = ({ siteTitle }) => (
         </div>
         </div>
 )
-
-function myfunc() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        document.getElementById("sticky").style.fontSize = "15px";
-    } else {
-        document.getElementById("sticky").style.fontSize = "25px";
-    }
-}
-
-
-
-
-
 
 
 

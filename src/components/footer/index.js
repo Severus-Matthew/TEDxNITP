@@ -15,7 +15,7 @@ const Footer =()=>
             <div className={style.container}>
                     <div className={style.content_holder}>
                         <img src={tedlogo} style={{width:'300px', height:'100px'}} alt='tedxlogo'/>
-                        <p className={style.insta2}><IconContext.Provider className={style.icon} value={{ size: '37px' }}> <FaInstagram/></IconContext.Provider><br /><span className={style.red} ></span>  </p>
+                        <p className={style.insta2}><IconContext.Provider  value={{ size: '37px' }}> <FaInstagram/></IconContext.Provider><br /><span className={style.red} ></span>  </p>
                         <p className={style.insta}><IconContext.Provider value={{ size: '37px' }}> <FaEnvelopeOpen /></IconContext.Provider> <span className={style.red}> <br /></span>  </p>
                         <p className={style.insta}><IconContext.Provider value={{ size: '37px' }}><FaLinkedin /></IconContext.Provider> <span className={style.red}> <br /> </span>  </p>
                         <p className={style.insta}><IconContext.Provider value={{ size: '37px'}}><FaPhoneAlt /></IconContext.Provider> <span className={style.red}> <br /> </span>  </p>

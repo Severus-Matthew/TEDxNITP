@@ -30,8 +30,8 @@ const About =()=>
 
 
                     <div className={style.content_wrap}>
-                        <div className={style.About_image} style={{ marginBottom: '80px' }}>
-                            <p className={style.content_title}>About <span className={style.red}>TEDx </span>NIT Patna </p>
+                        <div className={style.About_text} style={{ marginBottom: '80px' }}>
+                            <p className={style.content_title}><span className={style.red}>TEDx </span>NIT Patna </p>
                             <p className={style.content_data} >Floating with the calm waves of Ganges, dancing with
                             the cool breeze and embracing the chaos, we join
                             together to celebrate ideas. A pool of talented and

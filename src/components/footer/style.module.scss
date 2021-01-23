@@ -89,6 +89,26 @@
                 border-width: 10px;
                 padding: 10px;
                 border: 2px solid grey;
+
+                @media screen and (max-width: 1024px) {
+                    font-size: 24px;
+                }
+
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
+
+                @media screen and (max-width: 425px) {
+                    font-size: 10px;
+                }
+
+                @media screen and (max-width: 375px) {
+                    font-size: 9px;
+                }
+
+                @media screen and (max-width: 320px) {
+                    font-size: 9px;
+                }
             }
 
             .news:hover {
@@ -99,35 +119,56 @@
                 border-color: grey;
                 border-width: 10px;
                 border: 2px solid white;
-            }
-        }
 
-        .license {
-            font-family: 'helvetica';
-            color: white;
-            text-align: center;
-            margin-top: 30px;
-        }
+                @media screen and (max-width: 1024px) {
+                    font-size: 24px;
+                }
 
-        .webdevp {
-            font-family: 'helvetica';
-            color: white;
-            text-align: center;
-            margin-top: 15px;
-        }
+                @media screen and (max-width: 768px) {
+                    font-size: 18px;
+                }
 
-        .credits {
-            display: flex;
-            justify-content: center;
+                @media screen and (max-width: 425px) {
+                    font-size: 10px;
+                }
 
-            .insta {
-                font-size: 45px;
-                margin-left: 15px;
-                font-family: 'helvetica';
-                color: white;
-                text-decoration: none;
-                margin: 0px;
-            }
+                @media screen and (max-width: 375px) {
+                    font-size: 9px;
+                }
+
+                @media screen and (max-width: 320px) {
+                    font-size: 9px;
+                }
+            
         }
     }
+
+    .license {
+        font-family: 'helvetica';
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .webdevp {
+        font-family: 'helvetica';
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .credits {
+        display: flex;
+        justify-content: center;
+
+        .insta {
+            font-size: 45px;
+            margin-left: 15px;
+            font-family: 'helvetica';
+            color: white;
+            text-decoration: none;
+            margin: 0px;
+        }
+    }
+}
 }

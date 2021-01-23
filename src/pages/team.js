@@ -32,7 +32,7 @@ const TeamPage = () =>
                         <div className={style.flipcard}>
                             <div className={style.flipcardinner}>
                             <div className={style.flipcardfront}>
-                                    <img src={O1} alt='teamImages' style={{ width: '320px', height: '320px' }}/>
+                                    <img src={O1} alt='teamImages'/>
                                  </div>
                             <div className={style.flipcardback}>
                                         <h1>Aditi Anshu</h1>
@@ -56,7 +56,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX1} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX1} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Dewansh Shrivastav</h1>
@@ -71,7 +71,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX2} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX2} alt='teamImages'  />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Aditya Singh</h1>
@@ -85,7 +85,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX3} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX3} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Harsh Jha</h1>
@@ -104,7 +104,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX4} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX4} alt='teamImages'  />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Adarsh Mishra</h1>
@@ -119,7 +119,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX5} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX5} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Insha Nadeem</h1>
@@ -133,7 +133,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={EX6} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={EX6} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Suraj Kuamr Jha</h1>
@@ -160,7 +160,7 @@ const TeamPage = () =>
                         <div className={style.flipcard}>
                             <div className={style.flipcardinner}>
                                 <div className={style.flipcardfront}>
-                                            <img src={E1} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={E1} alt='teamImages' />
                                 </div>
                                 <div className={style.flipcardback}>
                                     <h1>Shitij Sahu</h1>
@@ -175,7 +175,7 @@ const TeamPage = () =>
                         <div className={style.flipcard}>
                             <div className={style.flipcardinner}>
                                 <div className={style.flipcardfront}>
-                                            <img src={E2} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={E2} alt='teamImages' />
                                 </div>
                                 <div className={style.flipcardback}>
                                     <h1>Pratik Kumar</h1>
@@ -190,7 +190,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={E3} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={E3} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Jelsy Singh</h1>
@@ -206,7 +206,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={E4} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={E4} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Raja Babu</h1>
@@ -221,7 +221,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={E5} alt='teamImages' style={{ width: '320px', height: '320px' }}/>
+                                            <img src={E5} alt='teamImages'/>
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Anupriya</h1>
@@ -235,7 +235,7 @@ const TeamPage = () =>
                                 <div className={style.flipcard}>
                                     <div className={style.flipcardinner}>
                                         <div className={style.flipcardfront}>
-                                            <img src={E6} alt='teamImages' style={{ width: '320px', height: '320px' }} />
+                                            <img src={E6} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Subrat Chaturvedi</h1>

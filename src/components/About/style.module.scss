@@ -15,6 +15,27 @@
         font-size: 40px;
         font-weight: 600;
 
+
+        @media screen and (max-width: 1024px) {
+            font-size: 36px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 425px) {
+            font-size: 35px;
+        }
+
+        @media screen and (max-width: 375px) {
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 320px) {
+            font-size: 30px;
+        }
+
         .red {
             color: rgb(230,43,30);
             font-weight: 700;
@@ -46,25 +67,37 @@
             line-height: 20px;
             width: 50%;
             font-size: 16px;
-            padding: 25px;
+            padding: 17px;
             margin-top: 50px;
             max-width: 500px;
             max-height: 300px;
 
             @media #{$media-tablet-p} {
-                width: 80%;
+                width: 85%;
+                order: 2;
+                padding-bottom: 40px;
+                font-size: 13px;
+                font-weight: 300;
             }
 
             @media #{$media-mobile} {
-                width: 80%;
+                width: 85%;
+                order: 2;
+                padding-bottom: 40px;
+                font-size: 13px;
+                font-weight: 400;
             }
 
             @media #{$media-small} {
-                width: 80%;
+                width: 85%;
+                order: 2;
+                padding-bottom: 40px;
+                font-size: 13px;
+                font-weight: 400;
             }
 
             .content_data {
-                margin-bottom: 25px;
+                margin-bottom: 20px;
             }
 
             .HeroButton {
@@ -75,6 +108,41 @@
                 font-family: 'helvetica';
                 padding: 10px;
                 background-color: rgb(230,43,30);
+            }
+        }
+
+        .content2 {
+            order: 2;
+            color: black;
+            font-family: 'helvetica';
+            line-height: 20px;
+            width: 50%;
+            font-size: 16px;
+            margin-top: 50px;
+            max-width: 500px;
+            max-height: 300px;
+
+            @media #{$media-tablet-p} {
+                width: 100%;
+                order: 2;
+                font-size: 13px;
+                font-weight: 300;
+            }
+
+            @media #{$media-mobile} {
+                width: 100%;
+                order: 2;
+                font-size: 13px;
+                font-weight: 400;
+                padding-top: 100px;
+            }
+
+            @media #{$media-small} {
+                width: 100%;
+                order: 2;
+                font-size: 13px;
+                font-weight: 400;
+                padding-top: 90px;
             }
         }
 
@@ -92,6 +160,9 @@
             @media #{$media-tablet-p} {
                 order: 2;
                 align-self: center;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 20px;
             }
 
             @media #{$media-mobile} {
@@ -99,6 +170,9 @@
                 align-self: center;
                 width: 320px;
                 height: 200px;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 15px;
             }
 
             @media #{$media-small} {
@@ -106,6 +180,52 @@
                 align-self: center;
                 width: 320px;
                 height: 200px;
+                font-size: 13px;
+                font-weight: 400;
+                padding: 10px;
+            }
+        }
+
+        .About_text {
+            margin-top: 50px;
+            max-width: 500px;
+            max-height: 300px;
+            color: black;
+            font-family: 'helvetica';
+            line-height: 20px;
+            width: 50%;
+            font-size: 16px;
+            padding: 25px;
+
+            @media #{$media-tablet-p} {
+                order: 2;
+                align-self: center;
+                font-size: 13px;
+                font-weight: 400;
+                width: 90%;
+                padding-bottom: 150px;
+            }
+
+            @media #{$media-mobile} {
+                order: 2;
+                align-self: center;
+                width: 320px;
+                height: 200px;
+                font-size: 13px;
+                font-weight: 400;
+                width: 90%;
+                padding-bottom: 170px;
+            }
+
+            @media #{$media-small} {
+                order: 2;
+                align-self: center;
+                width: 320px;
+                height: 200px;
+                font-size: 13px;
+                font-weight: 400;
+                width: 90%;
+                padding-bottom: 200px;
             }
         }
     }
