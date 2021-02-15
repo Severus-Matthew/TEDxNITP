@@ -7,6 +7,8 @@
 
 .section {
     background-color: black;
+    margin:0px;
+    width:100%;
 
     .container {
         height: 100%;
@@ -32,7 +34,7 @@
                 font-family: 'helvetica';
                 color: grey;
                 text-decoration: none;
-                margin: 0px;
+                margin: 10px;
                 text-align: center;
 
                 @media #{$media-mobile} {
@@ -59,7 +61,7 @@
                 font-family: 'helvetica';
                 color: grey;
                 text-decoration: none;
-                margin: 0px;
+                margin: 10px;
                 text-align: center;
 
                 @media #{$media-mobile} {

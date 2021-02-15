@@ -1,11 +1,9 @@
-
 @font-face {
-    font-family: sans-serif;
+    font-family: 'helvetica';
     src: url('../../assets/Helvetica.ttf');
 }
 
 @import '../../assets/variables';
-
 
 .section {
     background-color: black;
@@ -60,8 +58,8 @@
             text-align: center;
             color: white;
             font-size: 18px;
-            font-family: Bahnschrift;
-            font-style: italic;
+            font-family: helvetica;
+         
             font-weight: 400;
             
 

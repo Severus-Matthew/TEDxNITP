@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
     "\\src\\components",
-    "\\src\\components\\About",
-    "\\src\\components\\Container",
+    "\\src\\components\\footer",
+    "\\src\\components\\Header",
     "\\src\\components\\LandingPage",
+    "\\src\\components\\Navbar",
     "\\src\\pages",
     "\\src\\pages\\sass",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\components\\Header\\header.js",
+  "SelectedNode": "\\src\\pages\\team.js",
   "PreviewInSolutionExplorer": false
 }

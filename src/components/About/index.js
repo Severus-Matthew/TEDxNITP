@@ -52,7 +52,7 @@ fast pace through its great reservoir of talent.</p>
                             
                         </div>
 
-                        <img src={TEDx2} className={style.content} alt="about-ted" />
+                        <img src={TEDx2} className={style.content2} alt="about-ted" />
                     </div>
 
 
