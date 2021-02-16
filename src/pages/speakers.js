@@ -6,7 +6,7 @@ import { FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import a from '../pages/download.jpg'
 import b from '../pages/Kevin.jpg'
-import c from '../pages/IMG-0023.jpg'
+import c from '../pages/IMG-0023.png'
 import d from '../pages/Harshit.jpg'
 import e from '../pages/0001.jpg'
 
