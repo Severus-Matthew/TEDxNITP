@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `TEDxNITP`,
     description: `The Official website for TEDxNITP`,
-    author: `@haxzie`,
+    author: `@Jhujhu_Potter`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

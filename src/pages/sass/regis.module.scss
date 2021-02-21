@@ -6,37 +6,34 @@
 @import '../../assets/variables';
 
 iframe {
-    width: 80%;
-    height: 1034px;
-   border: none; 
-   max-width:100%; 
-   max-height:100vh;
+    width: 3000px;
+    height: 4034px;;
+    border: none;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 .section {
     background-color: black;
-   
+
 
     .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: black;
-        
+
 
         @media #{$media-desktop} {
             margin-bottom: 0px;
-            
         }
 
         @media #{$media-large} {
             margin-top: 0px;
-            
         }
 
         @media #{$media-tablet-p} {
             margin-top: 0px;
-           
         }
 
 
@@ -67,9 +64,8 @@ iframe {
             color: white;
             font-size: 18px;
             font-family: helvetica;
-         
             font-weight: 400;
-            
+
 
             .links {
                 text-decoration: none;

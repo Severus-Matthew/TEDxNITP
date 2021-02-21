@@ -18,7 +18,8 @@ const Navbar =()=>
         <div className={style.pages}>
 
             <Link className={style.links} activeClassName={style.activelinks}  to="/">Home </Link>
-            <Link className={style.links} activeClassName={style.activelinks} to="/speakers">Speakers</Link>
+                    <Link className={style.links} activeClassName={style.activelinks} to="/speakers">Speakers</Link>
+                    <Link className={style.links} activeClassName={style.activelinks} to="/regis">Register</Link>
             <Link className={style.links} activeClassName={style.activelinks} to="/about">About</Link>
             <Link className={style.links} activeClassName={style.activelinks} to="/team">Team</Link>
             <Link className={style.links} activeClassName={style.activelinks} to="/sponsors">Sponsors</Link>

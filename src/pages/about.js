@@ -49,7 +49,7 @@ const aboutPage = () =>
 
 Follow TED on Twitter at <a class={style.links} href="http://twitter.com/TEDTalks">TEDTalks,</a> or on Facebook at<a class={style.links} href="http://www.facebook.com/TED."> TED. </a><br /><br /><br /><br /><br /><br /><br />
                         </p>
-
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8_oLBe4K5QZsnPRx62iHIrTaMAu_QO_kkgsXmJ46pEqd0MA/viewform?embedded=true" >Loading…</iframe>
                     </div>
 
 

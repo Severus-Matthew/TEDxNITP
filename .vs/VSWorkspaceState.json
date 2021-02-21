@@ -3,14 +3,13 @@
     "",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\About",
     "\\src\\components\\footer",
-    "\\src\\components\\Header",
-    "\\src\\components\\LandingPage",
-    "\\src\\components\\Navbar",
+    "\\src\\images\\team",
+    "\\src\\images\\team\\Photo (File responses)",
     "\\src\\pages",
     "\\src\\pages\\sass",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\pages\\team.js",
   "PreviewInSolutionExplorer": false
 }
