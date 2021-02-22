@@ -33,7 +33,7 @@
 
     .herocontent {
         background-color: none;
-        margin-top: 280px;
+        margin-top: 220px;
         height: 100vh;
         flex-direction: row;
         justify-content: space-between;
@@ -94,12 +94,14 @@
                 position: relative;
                 float: none;
                 font-size: 30px;
+                margin-left: 39%;
             }
 
             @media #{$media-small} {
                 position: relative;
                 float: none;
                 font-size: 30px;
+                  margin-left: 39%;
             }
 
             .spin:after {

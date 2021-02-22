@@ -21,35 +21,20 @@ const SpeakerPage = () =>
             <div className={style.container}>
             <div className={style.speaker_container}>
             <div className={style.speaker_content}>
-           
-                                <div>    <p className={style.speaker_details} style={{ marginLeft: '0px'}}>Our <span className={style.title}>Speakers </span><br/><br />
+
+                                <div>    <p className={style.speaker_details} style={{ marginLeft: '30px'}}>Our <span className={style.title}>Speakers </span><br/>
                                     <br /></p>
                               </div>
-                                <br /><br />
-                               
-                                
+
+
+
                             </div>
                     </div>
-                       
-                            <div clssName={style.spk}>
-                               <div className={style.cont} ><img className={style.image} src={a} alt='kevin' style={{ float: 'left'}} /> <span className={style.title1}> AASIF KHAN</span></div>
-                              <div >  
-                                <p className={style.content1}>
-                                    Aasif Khan is an Indian actor, known for his works in web series and films. He is recognized for his
-                                    notable performances in India's Most Wanted, Jamtara, Patal Lok, Mirzapur , Panchayat and
-                                    Humorously Yours 2. Khan has lived some exceptional characters in his acts that include
-                                    Ganesh Groom, Anas Ahmad, Babar Khan, Chintu, to mention a few.
 
 
-                                </p>
-                              </div>
-                                    
-                                
-                        </div>
-                        <br/><br/><br/><br/><br/>
 
                         <div clssName={style.spk}>
-                            <div className={style.cont} ><img className={style.image} src={b} alt='kevin' style={{ float: 'right' }} /> <span className={style.title2}>KEVIN MISSAL</span></div>
+                            <div className={style.cont} ><img className={style.image1} src={b} alt='kevin' style={{ float: 'right' }} /> <span className={style.title2}>KEVIN MISSAL</span></div>
                               <div >
                                 <p className={style.content2}>
                                     Kevin Missal is a 22 year old graduate of St. Stephen's College.
@@ -60,7 +45,7 @@ const SpeakerPage = () =>
                                         into mythology and has topped charts ever since, selling cumulatively 200,000
                                         copies. He has been featured in all the daily newspapers and has opened his creative
                                         marketing agency "HubHawks" which helps authors and publishers. His hopes and dreams
-                                        are to open a writing school which he's making it alive. 
+                                        are to open a writing school which he's making it alive.
 
                                   </p>
                             </div>
@@ -71,13 +56,13 @@ const SpeakerPage = () =>
 
 
                         <div clssName={style.spk}>
-                            <div className={style.cont} ><img className={style.image} src={c} alt='kevin' style={{ float: 'left' }} /> <span className={style.title1}>JEENA ATHARVIA</span></div>
+                            <div className={style.cont} ><img className={style.image} src={c} alt='kevin' style={{ float: 'left' }} /> <span className={style.title1}>JEENA EARTHIVA</span></div>
                             <div >
                                 <p className={style.content1}>
-                                    India's 1st Conscious Music Artist & Transformational Coach 
-                                    Jeena is an international composer, music producer, singer, songwriter for Conscious Music (Music that is consciously created to transform the life-state of the listener) 
+                                    India's 1st Conscious Music Artist & Transformational Coach
+                                    Jeena is an international composer, music producer, singer, songwriter for Conscious Music (Music that is consciously created to transform the life-state of the listener)
                                     She is the inventor of the life-transformation technology
-                                    THE CONSCIOUS MUSIC CODE - using Conscious Music & Transformative Mind Hacks to code your mind, body & spirit to with the power to bend, reshape & even create your own reality! 
+                                    THE CONSCIOUS MUSIC CODE - using Conscious Music & Transformative Mind Hacks to code your mind, body & spirit to with the power to bend, reshape & even create your own reality!
                                     She is the 1st to use Live Sound Design with Applied Mental Space Psychology and also the 1st to be represented at NLP Conference India for her Conscious Music work with New Code NLP
 
 
@@ -90,8 +75,8 @@ const SpeakerPage = () =>
                         <br /><br /><br /><br /><br />
 
 
-                        <div clssName={style.spk}>
-                            <div className={style.cont} ><img className={style.image} src={d} alt='kevin' style={{ float: 'right' }} /> <span className={style.title3}>HARSHIT MANOCHA</span></div>
+                        <div className={style.spk}>
+                            <div className={style.cont} ><img className={style.image1} src={d} alt='kevin' style={{ float: 'right' }} /> <span className={style.title3}>HARSHIT MANOCHA</span></div>
                             <div >
                                 <p className={style.content2}>
                                     Art is a Process and is not confined to an end product. Harshit Manocha or Molabocha as he
@@ -123,7 +108,7 @@ const SpeakerPage = () =>
                                     year of undergraduate degree. His business, Onibus, took off in the following years and now has a steady
                                     profit. He has been chosen as a speaker in this event to give voices to the young and dynamic innovators
                                     in college and to also spark off a trend for new ideas which are being turned to reality.
-                                    
+
 
 
 
@@ -135,11 +120,11 @@ const SpeakerPage = () =>
                         <br /><br /><br /><br /><br />
 
                         </div>
-                
-                
 
-                     
-          
+
+
+
+
 
 
         </Container>

@@ -56,18 +56,22 @@ layout{
                     color: white;
 
                     @media #{$media-tablet-p} {
+                      text-align: center;
                         align-self: center;
                         width: 80%;
                     }
 
                     @media #{$media-mobile} {
+                      text-align: center;
                         align-self: center;
                         width: 80%;
-                        font-size: 13px;
+                        font-size: 33px;
                     }
 
                     @media #{$media-small} {
-                        font-size: 13px;
+                      text-align: center;
+
+                        font-size: 33px;
                         align-self: center;
                         width: 80%;
                     }
@@ -84,11 +88,15 @@ layout{
                         font-weight: 600;
 
                         @media #{$media-mobile} {
-                            font-size: 25px;
+                            font-size: 45px;
+                              align-self: center;
+                              text-align: center;
                         }
 
                         @media #{$media-small} {
-                            font-size: 25px;
+                            font-size: 45px;
+                              align-self: center;
+                              text-align: center;
                         }
                     }
                 }
@@ -243,6 +251,7 @@ spk {
             border-color: white;
             border-style: double;
             border-width: 5px;
+            width:280px;
 
             @media screen and (max-width: 1024px) {
                 height: 220px;
@@ -254,10 +263,53 @@ spk {
 
             @media screen and (max-width: 425px) {
                 height: 184px;
+                width: 190px;
+                margin-left: 20%;
+                margin-bottom: 5%;
             }
 
             @media screen and (max-width: 375px) {
-                height: 153px;
+                height: 152px;
+                width: 170px;
+                margin-left: 20%;
+                margin-bottom: 5%;
+            }
+
+            @media screen and (max-width: 320px) {
+                height: 121px;
+            }
+        }
+        //for second image
+
+        .image1 {
+            height: 250px;
+            display: block;
+            border-radius: 50%;
+            border-color: white;
+            border-style: double;
+            border-width: 5px;
+            width:280px;
+
+            @media screen and (max-width: 1024px) {
+                height: 220px;
+            }
+
+            @media screen and (max-width: 768px) {
+                height: 200px;
+            }
+
+            @media screen and (max-width: 425px) {
+                height: 184px;
+                width: 190px;
+                margin-right: 25%;
+                margin-bottom: 5%;
+            }
+
+            @media screen and (max-width: 375px) {
+                height: 152px;
+                width: 170px;
+                margin-right: 25%;
+                margin-bottom: 5%;
             }
 
             @media screen and (max-width: 320px) {
@@ -267,7 +319,7 @@ spk {
 
         .cont {
             position: relative;
-           
+
         }
 
 .title1 {
@@ -289,12 +341,13 @@ spk {
 
     @media screen and (max-width: 425px) {
         font-size: 35px;
-        margin-left: 22px;
+        margin-left: 45px;
     }
 
     @media screen and (max-width: 375px) {
-        font-size: 30px;
-        margin-left: 19px;
+        font-size: 25px;
+       margin-left: 50px;
+
     }
 
     @media screen and (max-width: 320px) {
@@ -307,10 +360,9 @@ spk {
     font-size: 20px;
     color: white;
     font-family: calibri;
-    margin-left: 50px;
     font-weight: 100;
-    padding-left: 360px;
-
+  //  padding-left: 360px;
+    text-align: center;
 
     @media screen and (max-width: 1024px) {
         font-size: 16px;
@@ -350,7 +402,7 @@ spk {
     font-family: Bell MT;
     margin-right: 70px;
     font-weight: 700;
-    padding-left: 320px;
+    padding-left: 370px;
 
     @media screen and (max-width: 1024px) {
         font-size: 36px;
@@ -364,12 +416,12 @@ spk {
 
     @media screen and (max-width: 425px) {
         font-size: 35px;
-        padding-left:0px;
+        padding-left:49px;
     }
 
     @media screen and (max-width: 375px) {
-        font-size: 30px;
-        padding-left: 20px;
+        font-size: 25px;
+       padding-left: 79px;
     }
 
     @media screen and (max-width: 320px) {
@@ -383,7 +435,7 @@ spk {
     font-family: Bell MT;
     margin-right: 70px;
     font-weight: 700;
-    padding-left: 320px;
+    padding-left: 252px;
 
     @media screen and (max-width: 1024px) {
         font-size: 36px;
@@ -397,12 +449,15 @@ spk {
 
     @media screen and (max-width: 425px) {
         font-size: 35px;
-        padding-left: 40px;
+margin-right: 6px;
+padding: 0px;
+
     }
 
     @media screen and (max-width: 375px) {
-        font-size: 30px;
-        padding-left: 55px;
+        font-size: 25px;
+      margin-right: 6px;
+
     }
 
     @media screen and (max-width: 320px) {
@@ -415,7 +470,7 @@ spk {
             font-size: 20px;
             color: white;
             font-family: calibri;
-            margin-right: 80px;
+            text-align: center;
             font-weight: 100;
 
             @media screen and (max-width: 1024px) {
@@ -473,7 +528,7 @@ spk {
             transform: translate(-50%, -50%);
             white-space: nowrap;
         }
-        
+
         @font-face {
             font-family: 'helvetica';
             src: url('../../assets/Helvetica.ttf');
@@ -482,4 +537,3 @@ spk {
         @import '../../assets/variables';
 
         $adjust: '200px';
-
