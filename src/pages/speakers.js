@@ -16,18 +16,18 @@ const SpeakerPage = () =>
     (
 
         <Layout>
-        <div className={style.section}>
-        <Container>
-            <div className={style.container}>
-            <div className={style.speaker_container}>
-            <div className={style.speaker_content}>
-           
-                                <div>    <p className={style.speaker_details} style={{ marginLeft: '0px'}}>Our <span className={style.title}>Speakers </span><br/><br />
+            <div className={style.section}>
+                <Container>
+                    <div className={style.container}>
+                        <div className={style.speaker_container}>
+                            <div className={style.speaker_content}>
+
+                                <div>    <p className={style.speaker_details} style={{ marginLeft: '0px' }}>Our <span className={style.title}>Speakers </span><br /><br />
                                     <br /></p>
-                              </div>
+                                </div>
                                 <br /><br />
-                               
-                               
+
+
                             </div>
                             <img src={b} className={style.rect1} style={{ objectFit: "fill" }} />
                             <hr className={style.line11} /> <p className={style.text1}>Kevin Missal</p><hr className={style.line12} /><hr className={style.line13} />
@@ -41,26 +41,26 @@ const SpeakerPage = () =>
                             marketing agency "HubHawks" which helps authors and publishers. His hopes and dreams
                                         are to open a writing school which he's making it alive. </p>
                             <hr className={style.line14} /><hr className={style.line15} />
-                    </div>
-                       
-                           
+                        </div>
+
+
 
 
                     </div>
                     <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br />
-                
-                
-
-                     
-          
 
 
-        </Container>
-        </div>
-
-</Layout>
 
 
-)
+
+
+
+                </Container>
+            </div>
+
+        </Layout>
+
+
+    )
 
 export default SpeakerPage;

@@ -1,9 +1,11 @@
-@font-face{
+@font-face {
     font-family: 'helvetica';
-    src:url('../../assets/Helvetica.ttf');
+    src: url('../../assets/Helvetica.ttf');
 }
+
 @import '../../assets/variables';
-layout{
+
+layout {
     background-color: black;
 }
 
@@ -205,6 +207,7 @@ layout{
         }
     }
 }
+
 spk {
     display: flex;
     order: 2;
@@ -236,39 +239,38 @@ spk {
     }
 }
 
-        .image {
-            height: 250px;
-            display: block;
-            border-radius: 50%;
-            border-color: white;
-            border-style: double;
-            border-width: 5px;
+.image {
+    height: 250px;
+    display: block;
+    border-radius: 50%;
+    border-color: white;
+    border-style: double;
+    border-width: 5px;
 
-            @media screen and (max-width: 1024px) {
-                height: 220px;
-            }
+    @media screen and (max-width: 1024px) {
+        height: 220px;
+    }
 
-            @media screen and (max-width: 768px) {
-                height: 200px;
-            }
+    @media screen and (max-width: 768px) {
+        height: 200px;
+    }
 
-            @media screen and (max-width: 425px) {
-                height: 184px;
-            }
+    @media screen and (max-width: 425px) {
+        height: 184px;
+    }
 
-            @media screen and (max-width: 375px) {
-                height: 153px;
-            }
+    @media screen and (max-width: 375px) {
+        height: 153px;
+    }
 
-            @media screen and (max-width: 320px) {
-                height: 121px;
-            }
-        }
+    @media screen and (max-width: 320px) {
+        height: 121px;
+    }
+}
 
-        .cont {
-            position: relative;
-           
-        }
+.cont {
+    position: relative;
+}
 
 .title1 {
     font-size: 40px;
@@ -338,9 +340,9 @@ spk {
     }
 }
 
-        .bold1 {
-            font-weight: 700;
-        }
+.bold1 {
+    font-weight: 700;
+}
 
 
 
@@ -364,7 +366,7 @@ spk {
 
     @media screen and (max-width: 425px) {
         font-size: 35px;
-        padding-left:0px;
+        padding-left: 0px;
     }
 
     @media screen and (max-width: 375px) {
@@ -377,6 +379,7 @@ spk {
         padding-left: 11px;
     }
 }
+
 .title3 {
     font-size: 40px;
     color: red;
@@ -411,68 +414,68 @@ spk {
     }
 }
 
-        .content2 {
-            font-size: 20px;
-            color: white;
-            font-family: calibri;
-            margin-right: 80px;
-            font-weight: 100;
+.content2 {
+    font-size: 20px;
+    color: white;
+    font-family: calibri;
+    margin-right: 80px;
+    font-weight: 100;
 
-            @media screen and (max-width: 1024px) {
-                font-size: 16px;
-            }
+    @media screen and (max-width: 1024px) {
+        font-size: 16px;
+    }
 
-            @media screen and (max-width: 768px) {
-                font-size: 15px;
-            }
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+    }
 
-            @media screen and (max-width: 425px) {
-                font-size: 15px;
-            }
+    @media screen and (max-width: 425px) {
+        font-size: 15px;
+    }
 
-            @media screen and (max-width: 375px) {
-                font-size: 10px;
-            }
+    @media screen and (max-width: 375px) {
+        font-size: 10px;
+    }
 
-            @media screen and (max-width: 320px) {
-                font-size: 10px;
-            }
-        }
+    @media screen and (max-width: 320px) {
+        font-size: 10px;
+    }
+}
 
 
-        .overlay {
-            position: absolute;
-            bottom: 0;
-            left: 100%;
-            right: 0;
-            background-color: transparent;
-            overflow: hidden;
-            width: 0;
-            height: 100%;
-            transition: .5s ease;
-            border-radius: 50%;
-        }
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: transparent;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 50%;
+}
 
-        .cont:hover .overlay {
-            width: 100%;
-            left: 0;
-        }
+.cont:hover .overlay {
+    width: 100%;
+    left: 0;
+}
 
-        .cont:hover .image {
-            opacity: 50%;
-        }
+.cont:hover .image {
+    opacity: 50%;
+}
 
-        .text {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            white-space: nowrap;
-        }
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
 
 .rect1 {
     position: absolute;
@@ -533,9 +536,8 @@ spk {
     left: 331px;
     margin-top: 480px;
     border: 3px solid #FFFFFF;
-
-    
 }
+
 .line12 {
     position: absolute;
     width: 230px;
@@ -544,6 +546,7 @@ spk {
     margin-top: 480px;
     border: 3px solid #FFFFFF;
 }
+
 .line13 {
     position: absolute;
     width: 290px;
@@ -553,6 +556,7 @@ spk {
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
 }
+
 .line14 {
     position: absolute;
     width: 910px;
@@ -561,6 +565,7 @@ spk {
     margin-top: 725px;
     border: 3px solid #FFFFFF;
 }
+
 .line15 {
     position: absolute;
     width: 105px;
@@ -570,14 +575,16 @@ spk {
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
 }
+
 .text1 {
     font-family: 'Script MT';
-    font-size:40px;
+    font-size: 40px;
     color: red;
     position: absolute;
     margin-left: 600px;
     margin-top: 460px;
 }
+
 .cont1 {
     font-family: helvetica;
     font-size: 18px;
@@ -585,14 +592,15 @@ spk {
     position: absolute;
     margin-left: 360px;
     margin-top: 520px;
-    width:650px;
+    width: 650px;
 }
-        @font-face {
-            font-family: 'helvetica';
-            src: url('../../assets/Helvetica.ttf');
-        }
 
-        @import '../../assets/variables';
+@font-face {
+    font-family: 'helvetica';
+    src: url('../../assets/Helvetica.ttf');
+}
 
-        $adjust: '200px';
+@import '../../assets/variables';
+
+$adjust: '200px';
 
