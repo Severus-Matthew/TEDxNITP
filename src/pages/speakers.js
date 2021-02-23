@@ -50,7 +50,30 @@ const SpeakerPage = () =>
                             She is the inventor of the life-transformation technology
                             THE CONSCIOUS MUSIC CODE - using Conscious Music & Transformative Mind Hacks to code your mind, body & spirit to with the power to bend, reshape & even create your own reality! 
                                     She is the 1st to use Live Sound Design with Applied Mental Space Psychology and also the 1st to be represented at NLP Conference India for her Conscious Music work with New Code NLP </p><hr className={style.line24} /><hr className={style.line25} />
-                    </div>
+
+                            <img src={d} className={style.rect3} style={{ objectFit: "fill" }} />
+                            <hr className={style.line31} /> <p className={style.text3}>Harshit Manocha</p><hr className={style.line32} /><hr className={style.line33} />
+                            <p className={style.cont3}>Art is a Process and is not confined to an end product. Harshit Manocha or Molabocha as he
+                            likes to be called an Artist, a Creative Facilitator, and an Entrepreneur. After graduating from
+                            IIT Bombay & working across a wide range of roles for 2 years, he quit his job to pursue his
+                            calling for Arts & experiential Learning. A lot of his work strongly promotes Art as a Process and
+                            not an End Product. He believes it is a process of exploration via expression.
+                            He's an advocate of Mental Health & over the last couple of years has been actively working in
+                            the intersection of Artistic Expression & Mental Health. Along with creating art, he has an active
+                            interest in building brands from scratch & loves to enable creators via mentoring & collaborating
+                            under his #YouCanBeAnyone Project. These little experiences have given his a fair share
+                                    experience and a bazillion stories that have proved that Small is the New Big</p><hr className={style.line34} /><hr className={style.line35} />
+
+
+                            <img src={e} className={style.rect4} style={{ objectFit: "fill" }} />
+                            <hr className={style.line41} /> <p className={style.text4}>Mohit Sharma</p><hr className={style.line42} /><hr className={style.line43} />
+                            <p className={style.cont4}>Art is a Process and is not confined to an end product. Harshit Manocha or Molabocha as he
+                           Mohit Sharma is an alumnus of NIT Patna who has been a young student entrepreneur from his second
+                                    year of undergraduate degree. His business, Onibus, took off in the following years and now has a steady
+                                    profit. He has been chosen as a speaker in this event to give voices to the young and dynamic innovators
+                                    in college and to also spark off a trend for new ideas which are being turned to reality.</p><hr className={style.line44} /><hr className={style.line45} />
+
+                        </div>
                        
                            
 
