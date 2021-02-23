@@ -473,7 +473,120 @@ spk {
             transform: translate(-50%, -50%);
             white-space: nowrap;
         }
-        
+
+.rect1 {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 31px;
+    margin-top: 400px;
+    border: 5px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+    border-radius: 35px;
+
+    @media screen and (max-width: 1024px) {
+        width: 280px;
+        height: 230px;
+        left: 28px;
+        margin-top: 380px;
+        border: 5px solid #E5E5E5;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        height: 170px;
+        left: 24px;
+        margin-top: 340px;
+        border: 4px solid #E5E5E5;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+        border: 3px solid #E5E5E5;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+        border: 3px solid #E5E5E5;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+        border: 3px solid #E5E5E5;
+    }
+}
+
+.line11 {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 331px;
+    margin-top: 480px;
+    border: 3px solid #FFFFFF;
+
+    
+}
+.line12 {
+    position: absolute;
+    width: 230px;
+    height: 0px;
+    left: 830px;
+    margin-top: 480px;
+    border: 3px solid #FFFFFF;
+}
+.line13 {
+    position: absolute;
+    width: 290px;
+    height: 0px;
+    left: 900px;
+    margin-top: 605px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.line14 {
+    position: absolute;
+    width: 910px;
+    height: 0px;
+    left: 152px;
+    margin-top: 725px;
+    border: 3px solid #FFFFFF;
+}
+.line15 {
+    position: absolute;
+    width: 105px;
+    height: 0px;
+    left: 152px;
+    margin-top: 700px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.text1 {
+    font-family: 'Script MT';
+    font-size:40px;
+    color: red;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 460px;
+}
+.cont1 {
+    font-family: helvetica;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 520px;
+    width:650px;
+}
         @font-face {
             font-family: 'helvetica';
             src: url('../../assets/Helvetica.ttf');

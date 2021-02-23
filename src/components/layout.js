@@ -36,7 +36,8 @@ const Layout = ({ children }) => (
       <LayoutDiv>
         <Header/>
 
-        { children }
+            {children}
+
         <Footer />
       </LayoutDiv>
     )}
