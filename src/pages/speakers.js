@@ -16,18 +16,18 @@ const SpeakerPage = () =>
     (
 
         <Layout>
-            <div className={style.section}>
-                <Container>
-                    <div className={style.container}>
-                        <div className={style.speaker_container}>
-                            <div className={style.speaker_content}>
-
-                                <div>    <p className={style.speaker_details} style={{ marginLeft: '0px' }}>Our <span className={style.title}>Speakers </span><br /><br />
+        <div className={style.section}>
+        <Container>
+            <div className={style.container}>
+            <div className={style.speaker_container}>
+            <div className={style.speaker_content}>
+           
+                                <div>    <p className={style.speaker_details} style={{ marginLeft: '0px'}}>Our <span className={style.title}>Speakers </span><br/><br />
                                     <br /></p>
-                                </div>
+                              </div>
                                 <br /><br />
-
-
+                               
+                               
                             </div>
                             <img src={b} className={style.rect1} style={{ objectFit: "fill" }} />
                             <hr className={style.line11} /> <p className={style.text1}>Kevin Missal</p><hr className={style.line12} /><hr className={style.line13} />
@@ -39,28 +39,37 @@ const SpeakerPage = () =>
                             into mythology and has topped charts ever since, selling cumulatively 200,000
                             copies. He has been featured in all the daily newspapers and has opened his creative
                             marketing agency "HubHawks" which helps authors and publishers. His hopes and dreams
-                                        are to open a writing school which he's making it alive. </p>
-                            <hr className={style.line14} /><hr className={style.line15} />
-                        </div>
+                                        are to open a writing school which he's making it alive. </p><hr className={style.line14} /><hr className={style.line15} />
 
 
+
+                            <img src={c} className={style.rect2} style={{ objectFit: "fill" }} />
+                            <hr className={style.line21} /> <p className={style.text2}>Jeena Etharvia</p><hr className={style.line22} /><hr className={style.line23} />
+                            <p className={style.cont2}>India's 1st Conscious Music Artist & Transformational Coach 
+                            Jeena is an international composer, music producer, singer, songwriter for Conscious Music (Music that is consciously created to transform the life-state of the listener) 
+                            She is the inventor of the life-transformation technology
+                            THE CONSCIOUS MUSIC CODE - using Conscious Music & Transformative Mind Hacks to code your mind, body & spirit to with the power to bend, reshape & even create your own reality! 
+                                    She is the 1st to use Live Sound Design with Applied Mental Space Psychology and also the 1st to be represented at NLP Conference India for her Conscious Music work with New Code NLP </p><hr className={style.line24} /><hr className={style.line25} />
+                    </div>
+                       
+                           
 
 
                     </div>
-                    <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br /> <br /><br />
+                   
+                
+                
+
+                     
+          
 
 
+        </Container>
+        </div>
+
+</Layout>
 
 
-
-
-
-                </Container>
-            </div>
-
-        </Layout>
-
-
-    )
+)
 
 export default SpeakerPage;
