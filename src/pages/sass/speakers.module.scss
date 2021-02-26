@@ -222,24 +222,24 @@ layout{
     border-radius: 35px;
 
     @media screen and (max-width: 1024px) {
-        width: 280px;
-        height: 230px;
+        width: 250px;
+        height: 200px;
         left: 28px;
         margin-top: 380px;
         border: 5px solid #E5E5E5;
     }
 
     @media screen and (max-width: 768px) {
-        width: 220px;
-        height: 170px;
+        width: 200px;
+        height: 150px;
         left: 24px;
         margin-top: 340px;
         border: 4px solid #E5E5E5;
     }
 
     @media screen and (max-width: 425px) {
-        width: 170px;
-        height: 120px;
+        width: 140px;
+        height: 90px;
         left: 17px;
         margin-top: 280px;
         border: 3px solid #E5E5E5;
@@ -270,7 +270,36 @@ layout{
     margin-top: 480px;
     border: 3px solid #FFFFFF;
 
-    
+    @media screen and (max-width: 1024px) {
+        width: 230px;
+        left: 280px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 160px;
+        left: 225px;
+        margin-top: 420px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 130px;
+        left: 120px;
+        margin-top: 280px;
+        border: 2px solid #FFFFFF;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .line12 {
     position: absolute;
@@ -279,6 +308,36 @@ layout{
     left: 830px;
     margin-top: 480px;
     border: 3px solid #FFFFFF;
+
+    @media screen and (max-width: 1024px) {
+        width: 240px;
+        left: 720px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 170px;
+        left: 545px;
+        margin-top: 420px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .line13 {
     position: absolute;
@@ -288,6 +347,36 @@ layout{
     margin-top: 605px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
+
+    @media screen and (max-width: 1024px) {
+        width: 260px;
+        left: 800px;
+        margin-top: 595px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 180px;
+        left: 620px;
+        margin-top: 500px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        left: 0px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .line14 {
     position: absolute;
@@ -296,6 +385,36 @@ layout{
     left: 152px;
     margin-top: 725px;
     border: 3px solid #FFFFFF;
+
+    @media screen and (max-width: 1024px) {
+        width: 790px;
+        left: 172px;
+        margin-top: 705px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 550px;
+        left: 160px;
+        margin-top: 580px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .line15 {
     position: absolute;
@@ -305,14 +424,77 @@ layout{
     margin-top: 705px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
+
+    @media screen and (max-width: 1024px) {
+        width: 150px;
+        left: 142px;
+        margin-top: 655px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 120px;
+        left: 140px;
+        margin-top: 540px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .text1 {
     font-family: 'Script MT';
-    font-size:40px;
+    font-size: 40px;
     color: red;
     position: absolute;
     margin-left: 600px;
     margin-top: 460px;
+
+    @media screen and (max-width: 1024px) {
+        width: 200px;
+        margin-left: 520px;
+        margin-top: 460px;
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        margin-left: 390px;
+        margin-top: 400px;
+        font-size: 27px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 160px;
+        margin-left: 230px;
+        margin-top: 270px;
+        font-size: 22px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 .cont1 {
     font-family: helvetica;
@@ -321,7 +503,41 @@ layout{
     position: absolute;
     margin-left: 360px;
     margin-top: 520px;
-    width:650px;
+    width: 650px;
+
+    @media screen and (max-width: 1024px) {
+        width: 200px;
+        margin-left: 320px;
+        margin-top: 520px;
+        font-size: 16px;
+        width: 590px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 460px;
+        margin-left: 240px;
+        margin-top: 450px;
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 240px;
+        margin-left: 160px;
+        margin-top: 300px;
+        font-size: 9px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 
@@ -341,8 +557,8 @@ layout{
     @media screen and (max-width: 1024px) {
         width: 280px;
         height: 230px;
-        left: 28px;
-        margin-top: 380px;
+        left: 684px;
+        margin-top: 900px;
         border: 5px solid #E5E5E5;
     }
 
@@ -386,6 +602,37 @@ layout{
     left: 570px;
     margin-top: 950px;
     border: 3px solid #FFFFFF;
+
+    @media screen and (max-width: 1024px) {
+        width: 160px;
+        left: 520px;
+        margin-top: 950px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .line22 {
@@ -395,6 +642,38 @@ layout{
     left: 120px;
     margin-top: 950px;
     border: 3px solid #FFFFFF;
+
+    @media screen and (max-width: 1024px) {
+        width: 170px;
+        height: 0px;
+        left: 120px;
+        margin-top: 950px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .line23 {
@@ -405,6 +684,38 @@ layout{
     margin-top: 1055px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
+
+    @media screen and (max-width: 1024px) {
+        width: 290px;
+        height: 0px;
+        left: 0px;
+        margin-top: 1055px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .line24 {
@@ -414,6 +725,38 @@ layout{
     left: 112px;
     margin-top: 1175px;
     border: 3px solid #FFFFFF;
+
+    @media screen and (max-width: 1024px) {
+        width: 700px;
+        height: 0px;
+        left: 112px;
+        margin-top: 1175px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .line25 {
@@ -424,6 +767,38 @@ layout{
     margin-top: 1175px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
+
+    @media screen and (max-width: 1024px) {
+        width: 6px;
+        height: 0px;
+        left: 772px;
+        margin-top: 1155px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .text2 {
@@ -433,6 +808,37 @@ layout{
     position: absolute;
     margin-left: 300px;
     margin-top: 925px;
+
+    @media screen and (max-width: 1024px) {
+        margin-left: 300px;
+        margin-top: 925px;
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 .cont2 {
@@ -443,6 +849,38 @@ layout{
     margin-left: 180px;
     margin-top: 980px;
     width: 620px;
+
+    @media screen and (max-width: 1024px) {
+        margin-left: 160px;
+        margin-top: 980px;
+        font-size: 16px;
+        width: 530px;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 220px;
+        left: 500px;
+        margin-top: 480px;
+    }
+
+    @media screen and (max-width: 425px) {
+        width: 170px;
+        height: 120px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 375px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 170px;
+        left: 17px;
+        margin-top: 280px;
+    }
 }
 
 // For Third One - Harshit
