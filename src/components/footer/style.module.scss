@@ -225,3 +225,12 @@
         }
     }
 }
+
+.textdis{
+   display:none
+}
+
+.textdisp:hover + .textdis {
+    display: block;
+    color: red;
+}

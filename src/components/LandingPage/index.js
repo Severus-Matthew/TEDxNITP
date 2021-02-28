@@ -16,7 +16,7 @@ const LandingPage =()=>
 
 
                     <p className={style.slogans}>"<span className={style.spin}></span><span className={style.red}>nity"<br/></span><img src={tedlogo} style={{height:'100px'}} alt='tedxlogo' />
-                    <p style={{ fontStyle: 'italic', fontSize: '20px' }}>Tending To <span className={style.red}> Infinity</span></p> </p>
+                        <p style={{ fontStyle: 'italic', fontSize: '20px' }}>Tending To <span className={style.red}> Infinity</span></p> <p className={style.register}>REGISTER NOW!</p> </p>
     </div>
             </Container>
 </div>

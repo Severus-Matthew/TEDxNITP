@@ -15,10 +15,10 @@ const Footer =()=>
             <div className={style.container}>
                     <div className={style.content_holder}>
                         <img src={tedlogo} className={style.tedxlogo} alt='tedxlogo'/>
-                        <p className={style.insta2}><IconContext.Provider className={style.icon} value={{ size: '30px' }}> <FaInstagram/></IconContext.Provider><br /><span className={style.red} ></span>  </p>
-                        <p className={style.insta}><IconContext.Provider value={{ size: '30px' }}> <FaEnvelopeOpen /></IconContext.Provider> <span className={style.red}> <br /></span>  </p>
-                        <p className={style.insta}><IconContext.Provider value={{ size: '30px' }}><FaLinkedin /></IconContext.Provider> <span className={style.red}> <br /> </span>  </p>
-                        <p className={style.insta}><IconContext.Provider value={{ size: '30px'}}><FaPhoneAlt /></IconContext.Provider> <span className={style.red}> <br /> </span>  </p>
+                        <p className={style.insta2}><a href="https://instagram.com/tedxnitpatna" style={{color:'grey'}}><IconContext.Provider className={style.icon} value={{ size: '30px' }}> <FaInstagram/></IconContext.Provider></a><br /><span className={style.red} ></span>  </p>
+                        <p className={style.insta}><a href="mailto: tedxnitpatna@gmail.com" style={{ color: 'grey' }}><IconContext.Provider value={{ size: '30px' }}> <FaEnvelopeOpen /></IconContext.Provider></a> <span className={style.red}> <br /></span>  </p>
+                        
+                        <p className={style.insta}><IconContext.Provider value={{ size: '30px' }} className={style.textdisp}><span className={style.textdis}>658687</span><FaPhoneAlt /></IconContext.Provider><span className={style.red}> <br /> </span>  </p>
                         
                 </div>
                     <p className={style.license}>"This Independent TEDx event is operated under license from TED."  </p>

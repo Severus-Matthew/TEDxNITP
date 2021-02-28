@@ -101,7 +101,7 @@
                 position: relative;
                 float: none;
                 font-size: 30px;
-                  margin-left: 39%;
+                margin-left: 39%;
             }
 
             .spin:after {
@@ -136,6 +136,30 @@
             }
         }
 
+        .register {
+            position: absolute;
+            background-color: red;
+            font-size: 25px;
+            font-family: Arial;
+            padding: 10px;
+
+            @media #{$media-tablet-p} {
+                font-size: 25px;
+            }
+
+            @media #{$media-mobile} {
+                font-size: 25px;
+            }
+
+            @media #{$media-small} {
+                font-size: 25px;
+            }
+        }
+
+        .register:hover {
+            transform: scale(1.2);
+        }
+
         .herotitle {
             font-family: "helvetica";
             font-size: 40px;
@@ -161,3 +185,4 @@
         }
     }
 }
+
