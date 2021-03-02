@@ -43,9 +43,9 @@ const About =()=>
                             country and a TEDx event on its grounds and by the
                             serene waves of the sacred Ganges promises to attract
                             the most interesting and intellectual crowd of all age
-                            groups.With the spirits tending to infinity, you will
+                            groups. With the spirits tending to infinity, you will
                             engage with a completely different and beautiful group
-                            of people and culture at TEDxNITPatna.In the long run,
+                            of people and culture at TEDxNITPatna. In the long run,
                             it's a great opportunity to create recall value as you join
                             with an Institute of National Importance rising with a
 fast pace through its great reservoir of talent.</p>

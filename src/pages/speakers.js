@@ -63,7 +63,7 @@ const SpeakerPage = () =>
                                     Jeena is an international composer, music producer, singer, songwriter for Conscious Music (Music that is consciously created to transform the life-state of the listener)
                                     She is the inventor of the life-transformation technology
                                     THE CONSCIOUS MUSIC CODE - using Conscious Music & Transformative Mind Hacks to code your mind, body & spirit to with the power to bend, reshape & even create your own reality!
-                                    She is the 1st to use Live Sound Design with Applied Mental Space Psychology and also the 1st to be represented at NLP Conference India for her Conscious Music work with New Code NLP
+                                    She is the 1st to use Live Sound Design with Applied Mental Space Psychology and also the 1st to be represented at NLP Conference India for her Conscious Music work with New Code NLP.
 
 
 
@@ -88,7 +88,7 @@ const SpeakerPage = () =>
                                     the intersection of Artistic Expression & Mental Health. Along with creating art, he has an active
                                     interest in building brands from scratch & loves to enable creators via mentoring & collaborating
                                     under his #YouCanBeAnyone Project. These little experiences have given his a fair share
-                                    experience and a bazillion stories that have proved that Small is the New Big
+                                    experience and a bazillion stories that have proved that Small is the New Big.
 
 
                                   </p>
