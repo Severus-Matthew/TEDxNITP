@@ -136,7 +136,7 @@ const TeamPage = () =>
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Harsh Jha</h1>
-                                            <p>Sponsorship Executive</p>
+                                            <p>PR Executive</p>
 
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@ const TeamPage = () =>
                                         </div>
                                         <div className={style.flipcardback}>
                                             <h1>Adarsh Mishra</h1>
-                                            <p>Sponsorship Executive</p>
+                                            <p>PR Executive</p>
 
                                         </div>
                                     </div>

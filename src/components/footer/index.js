@@ -18,7 +18,7 @@ const Footer =()=>
                         <p className={style.insta2}><a href="https://instagram.com/tedxnitpatna" style={{color:'grey'}}><IconContext.Provider className={style.icon} value={{ size: '30px' }}> <FaInstagram/></IconContext.Provider></a><br /><span className={style.red} ></span>  </p>
                         <p className={style.insta}><a href="mailto: tedxnitpatna@gmail.com" style={{ color: 'grey' }}><IconContext.Provider value={{ size: '30px' }}> <FaEnvelopeOpen /></IconContext.Provider></a> <span className={style.red}> <br /></span>  </p>
                         
-                        <p className={style.insta}><IconContext.Provider value={{ size: '30px' }} className={style.textdisp}><span className={style.textdis}>658687</span><FaPhoneAlt /></IconContext.Provider><span className={style.red}> <br /> </span>  </p>
+                       
                         
                 </div>
                     <p className={style.license}>"This website is developed by Manvi Jha & Vikhyat Singh (Web Team TEDx NITP)"  </p>
