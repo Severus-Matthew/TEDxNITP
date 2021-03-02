@@ -183,7 +183,7 @@ const TeamPage = () =>
                                             <img src={EX6} alt='teamImages' />
                                         </div>
                                         <div className={style.flipcardback}>
-                                            <h1>Suraj Kuamr Jha</h1>
+                                            <h1>Suraj Kumar Jha</h1>
                                             <p>Experiences Executive</p>
 
                                         </div>
