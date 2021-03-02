@@ -361,32 +361,35 @@ spk {
     color: white;
     font-family: calibri;
     font-weight: 100;
-  //  padding-left: 360px;
-    text-align: center;
+    padding-left: 320px;
+    text-align: left;
 
     @media screen and (max-width: 1024px) {
         font-size: 16px;
-        padding-left: 320px;
+        padding-left: 280px;
     }
 
     @media screen and (max-width: 768px) {
         font-size: 15px;
-        padding-left: 280px;
+        padding-left: 240px;
     }
 
     @media screen and (max-width: 425px) {
         font-size: 15px;
         padding-left: 0px;
+        text-align: center;
     }
 
     @media screen and (max-width: 375px) {
         font-size: 10px;
         padding-left: 0px;
+        text-align: center;
     }
 
     @media screen and (max-width: 320px) {
         font-size: 10px;
         padding-left: 0px;
+        text-align: center;
     }
 }
 
@@ -449,8 +452,8 @@ spk {
 
     @media screen and (max-width: 425px) {
         font-size: 35px;
-margin-right: 6px;
-padding: 0px;
+        margin-right: 6px;
+        padding: 0px;
 
     }
 
@@ -466,33 +469,42 @@ padding: 0px;
     }
 }
 
-        .content2 {
-            font-size: 20px;
-            color: white;
-            font-family: calibri;
-            text-align: center;
-            font-weight: 100;
+.content2 {
+    font-size: 20px;
+    color: white;
+    padding-right: 360px;
+    font-family: calibri;
+    text-align: right;
+    font-weight: 100;
 
-            @media screen and (max-width: 1024px) {
-                font-size: 16px;
-            }
+    @media screen and (max-width: 1024px) {
+        font-size: 16px;
+        padding-right: 320px;
+    }
 
-            @media screen and (max-width: 768px) {
-                font-size: 15px;
-            }
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+        padding-right: 280px;
+    }
 
-            @media screen and (max-width: 425px) {
-                font-size: 15px;
-            }
+    @media screen and (max-width: 425px) {
+        font-size: 15px;
+        padding-right: 0px;
+        text-align: center;
+    }
 
-            @media screen and (max-width: 375px) {
-                font-size: 10px;
-            }
+    @media screen and (max-width: 375px) {
+        font-size: 10px;
+        padding-right: 0px;
+        text-align: center;
+    }
 
-            @media screen and (max-width: 320px) {
-                font-size: 10px;
-            }
-        }
+    @media screen and (max-width: 320px) {
+        font-size: 10px;
+        padding-right: 0px;
+        text-align: center;
+    }
+}
 
 
         .overlay {
@@ -508,15 +520,7 @@ padding: 0px;
             border-radius: 50%;
         }
 
-        .cont:hover .overlay {
-            width: 100%;
-            left: 0;
-        }
-
-        .cont:hover .image {
-            opacity: 50%;
-        }
-
+       
         .text {
             color: white;
             font-size: 20px;

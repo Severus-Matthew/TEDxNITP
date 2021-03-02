@@ -21,7 +21,7 @@ const Footer =()=>
                         <p className={style.insta}><IconContext.Provider value={{ size: '30px' }} className={style.textdisp}><span className={style.textdis}>658687</span><FaPhoneAlt /></IconContext.Provider><span className={style.red}> <br /> </span>  </p>
                         
                 </div>
-                    <p className={style.license}>"This Independent TEDx event is operated under license from TED."  </p>
+                    <p className={style.license}>"This website is developed by Manvi Jha & Vikhyat Singh (Web Team TEDx NITP)"  </p>
                     
                 <div className={style.credits}>
                
