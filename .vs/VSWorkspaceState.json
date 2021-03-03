@@ -3,15 +3,14 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\Container",
+    "\\src\\components\\About",
     "\\src\\components\\Header",
     "\\src\\components\\LandingPage",
     "\\src\\components\\Navbar",
-    "\\src\\images",
     "\\src\\pages",
     "\\src\\pages\\sass",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\components\\LandingPage\\index.js",
+  "SelectedNode": "\\gatsby-config.js",
   "PreviewInSolutionExplorer": false
 }
