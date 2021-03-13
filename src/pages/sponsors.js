@@ -73,7 +73,7 @@ const Sponsors=()=>
                             </div>
                         </div>
                     </div>
-                    <hr/>
+                   
                 </div>
               
                 <p className={style.sponsor} style={{marginTop:'170px'}}>Want to Partner with Us ? Mail us at <span className={style.red}>tedxnitpatna@gmail.com </span>to know more.</p>
